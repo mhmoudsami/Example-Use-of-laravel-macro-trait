@@ -1,5 +1,5 @@
 # Example-Use-of-laravel-macro-trait
-This File Demonstrate How To Use Laravel Macro Trait To Add Method To Your Classes @ Runtime
+This Repo Demonstrate How To Use Laravel Macro Trait To Add Method To Your Classes @ Runtime
 --
 # What is Laravel Macro Trait
 Laravel Macro Trait Is a Utility That Gives U The Ability To add Methods To Your Class At Run Time
@@ -33,15 +33,15 @@ Calc::subtract(20 , 10);
 ```
 
 # Available Methods
-The Macro Trait Has Two Method "macro" Which Regiter New Method
+The Macro Trait Has Two Methods "macro" Which Regiter New Method
 And 'hasMacro' Which Checks To See If a macro is registerd in your class
 
 ```php
 // returns true
-var_dumb( Calc::hasMacro('subtract') );
+var_dump( Calc::hasMacro('subtract') );
 
 // returns false
-var_dumb( Calc::hasMacro('divide') );
+var_dump( Calc::hasMacro('divide') );
 ```
 
 # How It Work
