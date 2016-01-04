@@ -33,7 +33,7 @@ Calc::subtract(20 , 10);
 ```
 
 # Available Methods
-The Macro Trait Has To Method "macro" Which Regiter New Method
+The Macro Trait Has Two Method "macro" Which Regiter New Method
 And 'hasMacro' Which Checks To See If a macro is registerd in your class
 
 ```php
